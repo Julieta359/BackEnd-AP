@@ -9,19 +9,20 @@ import javax.validation.constraints.Size;
 
 @Entity
 public class Persona {
+
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
+
     @NotNull
-    @Size (min = 1, max = 40, message = "No cumple con la longitud")
-    private String nombre;  
-    
+    @Size(min = 1, max = 40, message = "No cumple con la longitud")
+    private String nombre;
+
     @NotNull
-    @Size (min = 1, max = 40, message = "No cumple con la longitud")
+    @Size(min = 1, max = 40, message = "No cumple con la longitud")
     private String apellido;
-    
-    @Size (min = 1, max = 40, message = "No cumple con la longitud")
+
+    @Size(min = 1, max = 40, message = "No cumple con la longitud")
     private String img;
 
     public Long getId() {
@@ -55,6 +56,5 @@ public class Persona {
     public void setImg(String img) {
         this.img = img;
     }
-    
-    
+
 }

@@ -1,9 +1,12 @@
 com\portfolio\jds\Controller\CEducacion.class
 com\portfolio\jds\Dto\dtoEducacion.class
+com\portfolio\jds\Entity\hys.class
+com\portfolio\jds\Repository\Rhys.class
 com\portfolio\jds\Security\Repository\iRolRepository.class
 com\portfolio\jds\Security\Entity\Usuario.class
 com\portfolio\jds\Dto\dtoExperiencia.class
 com\portfolio\jds\Service\SEducacion.class
+com\portfolio\jds\Dto\dtoHys.class
 com\portfolio\jds\Security\MainSecurity.class
 com\portfolio\jds\Entity\Educacion.class
 com\portfolio\jds\Security\Entity\Rol.class
@@ -11,6 +14,7 @@ com\portfolio\jds\Repository\IPersonaRepository.class
 com\portfolio\jds\Repository\RExperiencia.class
 com\portfolio\jds\Controller\CExperiencia.class
 com\portfolio\jds\Service\SExperiencia.class
+com\portfolio\jds\Service\Shys.class
 com\portfolio\jds\Security\Service\RolService.class
 com\portfolio\jds\Security\Dto\LoginUsuario.class
 com\portfolio\jds\Security\Enums\RolNombre.class
@@ -24,6 +28,7 @@ com\portfolio\jds\Entity\Experiencia.class
 com\portfolio\jds\Interface\IPersonaService.class
 com\portfolio\jds\Security\Service\UsuarioService.class
 com\portfolio\jds\Entity\Persona.class
+com\portfolio\jds\JdsApplication$1.class
 com\portfolio\jds\Controller\PersonaController.class
 com\portfolio\jds\Security\Controller\Mensaje.class
 com\portfolio\jds\Security\jwt\JwtEntryPoint.class
@@ -32,3 +37,4 @@ com\portfolio\jds\Security\jwt\JwtProvider.class
 com\portfolio\jds\Service\ImpPersonaService.class
 com\portfolio\jds\Security\Dto\NuevoUsuario.class
 com\portfolio\jds\Security\Repository\iUsuarioRepository.class
+com\portfolio\jds\Controller\CHys.class

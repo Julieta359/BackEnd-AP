@@ -12,7 +12,6 @@ public class NuevoUsuario {
     private Set<String> roles = new HashSet<>();
 
     //Getter y Setter
-
     public String getNombre() {
         return nombre;
     }
@@ -52,5 +51,5 @@ public class NuevoUsuario {
     public void setRoles(Set<String> roles) {
         this.roles = roles;
     }
-   
+
 }

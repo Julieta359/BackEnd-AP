@@ -2,15 +2,14 @@ package com.portfolio.jds.Security.Dto;
 
 import javax.validation.constraints.NotBlank;
 
-
 public class LoginUsuario {
+
     @NotBlank
     private String nombreUsuario;
     @NotBlank
     private String password;
-    
-    //Getter y Setter
 
+    //Getter y Setter
     public String getNombreUsuario() {
         return nombreUsuario;
     }
@@ -26,5 +25,5 @@ public class LoginUsuario {
     public void setPassword(String password) {
         this.password = password;
     }
-    
+
 }

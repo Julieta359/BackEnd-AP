@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:4200","https://front-end-jds.web.app"}, maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = {"http://localhost:4200", "https://front-end-jds.web.app"}, maxAge = 3600, allowCredentials = "true")
 @RequestMapping("/skill")
 public class CHys {
 

@@ -2,8 +2,8 @@ package com.portfolio.jds.Dto;
 
 import javax.validation.constraints.NotBlank;
 
-
 public class dtoHys {
+
     @NotBlank
     private String nombre;
     @NotBlank
@@ -32,6 +32,5 @@ public class dtoHys {
     public void setPorcentaje(int porcentaje) {
         this.porcentaje = porcentaje;
     }
-    
-    
+
 }

@@ -27,19 +27,19 @@ public class SExperiencia {
         return rExperiencia.findByNombreE(nombreE);
     }
 
-    public void save(Experiencia expe){
+    public void save(Experiencia expe) {
         rExperiencia.save(expe);
     }
-    
-    public void delete (int id){
+
+    public void delete(int id) {
         rExperiencia.deleteById(id);
     }
-    
- public boolean existsById(int id){
-     return rExperiencia.existsById(id);
- }   
- 
- public boolean existsByNombreE (String nombreE){
-     return rExperiencia.existsByNombreE(nombreE);
- }
+
+    public boolean existsById(int id) {
+        return rExperiencia.existsById(id);
+    }
+
+    public boolean existsByNombreE(String nombreE) {
+        return rExperiencia.existsByNombreE(nombreE);
+    }
 }
